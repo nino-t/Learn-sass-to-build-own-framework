@@ -1,0 +1,26 @@
+.navbar{
+    box-shadow: 0 1px 0px 0 rgba(140, 140, 140, 0.8);
+    display: flex;
+    margin-bottom: 30px;
+
+    .navbar-nav{
+        flex: 1;
+        margin: 0;
+        padding: 10px 10px;
+        list-style: none;
+        line-height: 50px;
+
+        li{
+            padding: 0 10px;
+            display: block;
+            float: left;
+            font-weight: bold;
+        }
+        
+        &:last-of-type{
+            li{
+                float: right;
+            }
+        }
+    }
+}

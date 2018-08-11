@@ -1,0 +1,24 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    > .flex-item-auto{
+        flex: 1;
+    }
+    > .flex-item-2{
+        width: 18.5%;
+    }
+    > .flex-item-3{
+        flex: 25%;
+    }
+    > .flex-item-4{
+        flex: 33.33%;
+    }
+    > .flex-item-6{
+        flex: 50%;
+    }
+    > div, > a{
+        margin-bottom: 20px;
+    }
+}

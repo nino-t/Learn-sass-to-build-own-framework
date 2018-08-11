@@ -1,0 +1,46 @@
+.album{
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+    img.album-cover{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    > .album-heading{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background-color: rgba(236, 240, 241,0.9);
+        width: 100%;
+        padding: 15px 10px;
+
+        > .album-title, > .album-sub-title{
+            margin: 0;
+        }
+        > .album-title{
+            font-size: 18px;
+            color: $font-title-album-color;
+        }
+        > .album-sub-title{
+            font-size: 14px;
+            color: $font-sub-title-album-color;
+        }
+    }
+
+    &:after{
+        opacity: 0;
+        background:rgba(52, 152, 219,0.95);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: '';
+    }
+    &:hover:after{
+        opacity: 1;
+    }
+}

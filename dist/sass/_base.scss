@@ -1,0 +1,35 @@
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.8rem;
+    font-family: $font-main;
+    height: 100%;
+}
+
+#app{
+    @include flex-side-container();
+    > .side-left {
+        @include flex-side-left();
+    }
+    > .side-right{
+        @include flex-side-right();
+    }   
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: $font-highlight;
+}
+
+a{
+    text-decoration: none;
+    color: $primary-color;
+}
+
+.container{
+    padding: 10px 20px;
+}

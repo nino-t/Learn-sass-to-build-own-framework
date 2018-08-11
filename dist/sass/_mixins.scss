@@ -1,0 +1,14 @@
+@mixin flex-side-container() {
+    display: flex;
+    height: 100%;
+}
+
+@mixin flex-side-left {
+    background: $side-left-background;
+    flex: 20%;
+}
+
+@mixin flex-side-right {
+    background: $side-right-background;
+    flex: 80%;
+}
