@@ -1,0 +1,16 @@
+.nav-menu{
+    @include primary-ul();
+
+    > li > a{
+        color: $font-link-color-nav-menu;
+        display: block;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    > li.active > a, > li:hover > a{
+        background-color: $primary-color;
+        color: $white;
+    }
+}

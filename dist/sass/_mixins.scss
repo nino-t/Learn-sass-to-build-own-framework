@@ -1,4 +1,4 @@
-@mixin flex-side-container() {
+@mixin flex-side-container {
     display: flex;
     height: 100%;
 }
@@ -11,4 +11,10 @@
 @mixin flex-side-right {
     background: $side-right-background;
     flex: 80%;
+}
+
+@mixin primary-ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }

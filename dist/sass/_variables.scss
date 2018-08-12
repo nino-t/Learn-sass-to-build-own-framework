@@ -14,6 +14,7 @@ $abetos: #7f8c8d;
 $primary-color: $peter-river;
 $secondary-color: $wet-asphalt;
 $third-color: $wet-asphalt;
+$four-color: $midnight-blue;
 
 $side-left-background: $cloud;
 $side-right-background: $white;
@@ -21,6 +22,13 @@ $side-right-background: $white;
 // Album modules
 $font-title-album-color: $wet-asphalt;
 $font-sub-title-album-color: $abetos;
+
+// Style font color
+$font-bold-color: $four-color;
+$font-reguler-color: $abetos;
+
+// Nav menu modules
+$font-link-color-nav-menu: $concrete;
 
 $font-main: 'Merriweather', Helvetica, sans-serif;
 $font-highlight: 'Bree Serif', Helvetica, sans-serif;

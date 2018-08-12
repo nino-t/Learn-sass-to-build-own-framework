@@ -6,15 +6,38 @@
     .navbar-nav{
         flex: 1;
         margin: 0;
-        padding: 10px 10px;
+        padding: 15px 10px;
         list-style: none;
-        line-height: 50px;
 
         li{
-            padding: 0 10px;
+            padding: 10px 10px;
+            padding-bottom: 4px;
             display: block;
             float: left;
             font-weight: bold;
+
+            &.date-time{
+                padding: 0;
+                display: flex;
+                color: $font-reguler-color;
+
+                > .date-day{
+                    padding: 6px 15px;
+                    padding-left: 10px;
+                    display: flex;
+                    flex-direction: column;
+                }
+                p, h3{
+                    padding: 0;
+                    margin: 0;
+                }
+                p{
+                    font-size: 14px;
+                }
+                h3{
+                    font-size: 35px;
+                }
+            }
         }
         
         &:last-of-type{
